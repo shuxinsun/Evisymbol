@@ -1,0 +1,1300 @@
+{
+    "__type__": "Container",
+    "functions": {
+        "0x1080": {
+            "name": "deregister_tm_clones",
+            "start": 4224,
+            "size": 0,
+            "bind": "STB_LOCAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 0,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4224
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 0,
+            "true_name": "deregister_tm_clones"
+        },
+        "0x10b0": {
+            "name": "register_tm_clones",
+            "start": 4272,
+            "size": 0,
+            "bind": "STB_LOCAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 0,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4272
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 0,
+            "true_name": "register_tm_clones"
+        },
+        "0x10f0": {
+            "name": "__do_global_dtors_aux",
+            "start": 4336,
+            "size": 0,
+            "bind": "STB_LOCAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 0,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4336
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 0,
+            "true_name": "__do_global_dtors_aux"
+        },
+        "0x1130": {
+            "name": "frame_dummy",
+            "start": 4400,
+            "size": 0,
+            "bind": "STB_LOCAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 0,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4400
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 0,
+            "true_name": "frame_dummy"
+        },
+        "0x1000": {
+            "name": "_init",
+            "start": 4096,
+            "size": 0,
+            "bind": "STB_LOCAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 0,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4096
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 0,
+            "true_name": "_init"
+        },
+        "0x1290": {
+            "name": "__libc_csu_fini",
+            "start": 4752,
+            "size": 5,
+            "bind": "STB_GLOBAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 5,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4752
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 0,
+            "true_name": "__libc_csu_fini"
+        },
+        "0x1220": {
+            "name": "__libc_csu_init",
+            "start": 4640,
+            "size": 101,
+            "bind": "STB_GLOBAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 101,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4640
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 0,
+            "true_name": "__libc_csu_init"
+        },
+        "0x1140": {
+            "name": "foo",
+            "start": 4416,
+            "size": 124,
+            "bind": "STB_GLOBAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 124,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4416
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 29,
+            "true_name": "foo",
+            "instructions": [
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4416,
+                    "mnemonic": "pushq",
+                    "op_str": "%rbp",
+                    "size": 1,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp",
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4417,
+                    "mnemonic": "movq",
+                    "op_str": "%rsp, %rbp",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp"
+                    ],
+                    "reg_writes": [
+                        "rbp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4420,
+                    "mnemonic": "movl",
+                    "op_str": "%edi, -4(%rbp)",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "edi",
+                        "rbp"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4423,
+                    "mnemonic": "movl",
+                    "op_str": "-4(%rbp), %eax",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "eax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4426,
+                    "mnemonic": "movl",
+                    "op_str": "%eax, %ecx",
+                    "size": 2,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "eax"
+                    ],
+                    "reg_writes": [
+                        "ecx"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4428,
+                    "mnemonic": "movq",
+                    "op_str": "%rcx, %rdx",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rcx"
+                    ],
+                    "reg_writes": [
+                        "rdx"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4431,
+                    "mnemonic": "subq",
+                    "op_str": "$3, %rdx",
+                    "size": 4,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rdx"
+                    ],
+                    "reg_writes": [
+                        "rflags",
+                        "rdx"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4435,
+                    "mnemonic": "movq",
+                    "op_str": "%rcx, -0x10(%rbp)",
+                    "size": 4,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rcx",
+                        "rbp"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4439,
+                    "mnemonic": "ja",
+                    "op_str": "0x11b5",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rflags"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4445,
+                    "mnemonic": "leaq",
+                    "op_str": "0xeac(%rip), %rax",
+                    "size": 7,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "rax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4452,
+                    "mnemonic": "movq",
+                    "op_str": "-0x10(%rbp), %rcx",
+                    "size": 4,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "rcx"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4456,
+                    "mnemonic": "movslq",
+                    "op_str": "(%rax, %rcx, 4), %rdx",
+                    "size": 4,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rax",
+                        "rcx"
+                    ],
+                    "reg_writes": [
+                        "rdx"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4460,
+                    "mnemonic": "addq",
+                    "op_str": "%rax, %rdx",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rax",
+                        "rdx"
+                    ],
+                    "reg_writes": [
+                        "rflags",
+                        "rdx"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4463,
+                    "mnemonic": "jmpq",
+                    "op_str": "*%rdx",
+                    "size": 2,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rdx"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4465,
+                    "mnemonic": "movl",
+                    "op_str": "0xea9(%rip), %eax",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "eax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4471,
+                    "mnemonic": "movl",
+                    "op_str": "%eax, 0x2eb7(%rip)",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "eax",
+                        "rip"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4477,
+                    "mnemonic": "jmp",
+                    "op_str": "0x11ba",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4482,
+                    "mnemonic": "movl",
+                    "op_str": "0xe9c(%rip), %eax",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "eax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4488,
+                    "mnemonic": "movl",
+                    "op_str": "%eax, 0x2ea6(%rip)",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "eax",
+                        "rip"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4494,
+                    "mnemonic": "jmp",
+                    "op_str": "0x11ba",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4499,
+                    "mnemonic": "movl",
+                    "op_str": "0xe8f(%rip), %eax",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "eax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4505,
+                    "mnemonic": "movl",
+                    "op_str": "%eax, 0x2e95(%rip)",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "eax",
+                        "rip"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4511,
+                    "mnemonic": "jmp",
+                    "op_str": "0x11ba",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4516,
+                    "mnemonic": "movl",
+                    "op_str": "0xe82(%rip), %eax",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "eax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4522,
+                    "mnemonic": "movl",
+                    "op_str": "%eax, 0x2e84(%rip)",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "eax",
+                        "rip"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4528,
+                    "mnemonic": "jmp",
+                    "op_str": "0x11ba",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4533,
+                    "mnemonic": "jmp",
+                    "op_str": "0x11ba",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4538,
+                    "mnemonic": "popq",
+                    "op_str": "%rbp",
+                    "size": 1,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp"
+                    ],
+                    "reg_writes": [
+                        "rsp",
+                        "rbp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4539,
+                    "mnemonic": "retq",
+                    "op_str": "",
+                    "size": 1,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp"
+                    ],
+                    "reg_writes": [
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                }
+            ],
+            "instructions_str": [
+                "1140: pushq %rbp",
+                "1141: movq %rsp, %rbp",
+                "1144: movl %edi, -4(%rbp)",
+                "1147: movl -4(%rbp), %eax",
+                "114a: movl %eax, %ecx",
+                "114c: movq %rcx, %rdx",
+                "114f: subq $3, %rdx",
+                "1153: movq %rcx, -0x10(%rbp)",
+                "1157: ja 0x11b5",
+                "115d: leaq 0xeac(%rip), %rax",
+                "1164: movq -0x10(%rbp), %rcx",
+                "1168: movslq (%rax, %rcx, 4), %rdx",
+                "116c: addq %rax, %rdx",
+                "116f: jmpq *%rdx",
+                "1171: movl 0xea9(%rip), %eax",
+                "1177: movl %eax, 0x2eb7(%rip)",
+                "117d: jmp 0x11ba",
+                "1182: movl 0xe9c(%rip), %eax",
+                "1188: movl %eax, 0x2ea6(%rip)",
+                "118e: jmp 0x11ba",
+                "1193: movl 0xe8f(%rip), %eax",
+                "1199: movl %eax, 0x2e95(%rip)",
+                "119f: jmp 0x11ba",
+                "11a4: movl 0xe82(%rip), %eax",
+                "11aa: movl %eax, 0x2e84(%rip)",
+                "11b0: jmp 0x11ba",
+                "11b5: jmp 0x11ba",
+                "11ba: popq %rbp",
+                "11bb: retq "
+            ]
+        },
+        "0x1050": {
+            "name": "_start",
+            "start": 4176,
+            "size": 47,
+            "bind": "STB_GLOBAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 47,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4176
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 0,
+            "true_name": "_start"
+        },
+        "0x11c0": {
+            "name": "main",
+            "start": 4544,
+            "size": 93,
+            "bind": "STB_GLOBAL",
+            "instrumented": false,
+            "is_mangled": false,
+            "basic_blocks_count": 1,
+            "bytes_length": 93,
+            "analysis": {},
+            "control_flow": {
+                "bbstarts": [
+                    4544
+                ]
+            },
+            "exception_info": {},
+            "instructions_count": 24,
+            "true_name": "main",
+            "instructions": [
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4544,
+                    "mnemonic": "pushq",
+                    "op_str": "%rbp",
+                    "size": 1,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp",
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4545,
+                    "mnemonic": "movq",
+                    "op_str": "%rsp, %rbp",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp"
+                    ],
+                    "reg_writes": [
+                        "rbp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4548,
+                    "mnemonic": "subq",
+                    "op_str": "$0x10, %rsp",
+                    "size": 4,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp"
+                    ],
+                    "reg_writes": [
+                        "rflags",
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4552,
+                    "mnemonic": "movl",
+                    "op_str": "$0, -4(%rbp)",
+                    "size": 7,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4559,
+                    "mnemonic": "movl",
+                    "op_str": "-8(%rbp), %edi",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "edi"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4562,
+                    "mnemonic": "callq",
+                    "op_str": "0x1140",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp",
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4567,
+                    "mnemonic": "movl",
+                    "op_str": "$0, -8(%rbp)",
+                    "size": 7,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4574,
+                    "mnemonic": "cmpl",
+                    "op_str": "$4, -8(%rbp)",
+                    "size": 4,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "rflags"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4578,
+                    "mnemonic": "jge",
+                    "op_str": "0x1215",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rflags"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4584,
+                    "mnemonic": "movl",
+                    "op_str": "-8(%rbp), %edi",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "edi"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4587,
+                    "mnemonic": "callq",
+                    "op_str": "0x1140",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp",
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4592,
+                    "mnemonic": "movl",
+                    "op_str": "-8(%rbp), %esi",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "esi"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4595,
+                    "mnemonic": "movl",
+                    "op_str": "0x2e3b(%rip), %edx",
+                    "size": 6,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "edx"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4601,
+                    "mnemonic": "leaq",
+                    "op_str": "0xe30(%rip), %rdi",
+                    "size": 7,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "rdi"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4608,
+                    "mnemonic": "movb",
+                    "op_str": "$0, %al",
+                    "size": 2,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [],
+                    "reg_writes": [
+                        "al"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4610,
+                    "mnemonic": "callq",
+                    "op_str": "0x1030",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp",
+                        "rip"
+                    ],
+                    "reg_writes": [
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4615,
+                    "mnemonic": "movl",
+                    "op_str": "-8(%rbp), %eax",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rbp"
+                    ],
+                    "reg_writes": [
+                        "eax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4618,
+                    "mnemonic": "addl",
+                    "op_str": "$1, %eax",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "eax"
+                    ],
+                    "reg_writes": [
+                        "rflags",
+                        "eax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4621,
+                    "mnemonic": "movl",
+                    "op_str": "%eax, -8(%rbp)",
+                    "size": 3,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "eax",
+                        "rbp"
+                    ],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4624,
+                    "mnemonic": "jmp",
+                    "op_str": "0x11de",
+                    "size": 5,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [],
+                    "reg_writes": [],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4629,
+                    "mnemonic": "xorl",
+                    "op_str": "%eax, %eax",
+                    "size": 2,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "eax"
+                    ],
+                    "reg_writes": [
+                        "rflags",
+                        "eax"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4631,
+                    "mnemonic": "addq",
+                    "op_str": "$0x10, %rsp",
+                    "size": 4,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp"
+                    ],
+                    "reg_writes": [
+                        "rflags",
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4635,
+                    "mnemonic": "popq",
+                    "op_str": "%rbp",
+                    "size": 1,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp"
+                    ],
+                    "reg_writes": [
+                        "rsp",
+                        "rbp"
+                    ],
+                    "cf_leaves_fn": null
+                },
+                {
+                    "__type__": "InstructionWrapper",
+                    "address": 4636,
+                    "mnemonic": "retq",
+                    "op_str": "",
+                    "size": 1,
+                    "before_instr_count": 0,
+                    "after_instr_count": 0,
+                    "reg_reads": [
+                        "rsp"
+                    ],
+                    "reg_writes": [
+                        "rsp"
+                    ],
+                    "cf_leaves_fn": null
+                }
+            ],
+            "instructions_str": [
+                "11c0: pushq %rbp",
+                "11c1: movq %rsp, %rbp",
+                "11c4: subq $0x10, %rsp",
+                "11c8: movl $0, -4(%rbp)",
+                "11cf: movl -8(%rbp), %edi",
+                "11d2: callq 0x1140",
+                "11d7: movl $0, -8(%rbp)",
+                "11de: cmpl $4, -8(%rbp)",
+                "11e2: jge 0x1215",
+                "11e8: movl -8(%rbp), %edi",
+                "11eb: callq 0x1140",
+                "11f0: movl -8(%rbp), %esi",
+                "11f3: movl 0x2e3b(%rip), %edx",
+                "11f9: leaq 0xe30(%rip), %rdi",
+                "1200: movb $0, %al",
+                "1202: callq 0x1030",
+                "1207: movl -8(%rbp), %eax",
+                "120a: addl $1, %eax",
+                "120d: movl %eax, -8(%rbp)",
+                "1210: jmp 0x11de",
+                "1215: xorl %eax, %eax",
+                "1217: addq $0x10, %rsp",
+                "121b: popq %rbp",
+                "121c: retq "
+            ]
+        }
+    },
+    "function_names": [
+        "main",
+        "__do_global_dtors_aux",
+        "_start",
+        "deregister_tm_clones",
+        "foo",
+        "frame_dummy",
+        "_init",
+        "register_tm_clones",
+        "__libc_csu_fini",
+        "__libc_csu_init"
+    ],
+    "sections": {
+        ".rodata": {
+            "name": ".rodata",
+            "base": 8192,
+            "size": 77,
+            "align": 16,
+            "bytes_length": 77,
+            "relocations": [],
+            "globals": {
+                "0x2020": [
+                    {
+                        "label": "bar_2020",
+                        "size": 16
+                    }
+                ],
+                "0x2000": [
+                    {
+                        "label": "_IO_stdin_used_2000",
+                        "size": 4
+                    }
+                ]
+            },
+            "data_cells_count": 77,
+            "valid_data_cells": 77
+        },
+        ".init_array": {
+            "name": ".init_array",
+            "base": 15848,
+            "size": 8,
+            "align": 8,
+            "bytes_length": 0,
+            "relocations": [],
+            "globals": {},
+            "data_cells_count": 0,
+            "valid_data_cells": 0
+        },
+        ".data": {
+            "name": ".data",
+            "base": 16416,
+            "size": 16,
+            "align": 8,
+            "bytes_length": 16,
+            "relocations": [],
+            "globals": {},
+            "data_cells_count": 16,
+            "valid_data_cells": 16
+        },
+        ".bss": {
+            "name": ".bss",
+            "base": 16432,
+            "size": 8,
+            "align": 4,
+            "bytes_length": 8,
+            "relocations": [],
+            "globals": {
+                "0x4030": [
+                    {
+                        "label": "completed.8061_4030",
+                        "size": 1
+                    }
+                ],
+                "0x4034": [
+                    {
+                        "label": "output_4034",
+                        "size": 4
+                    }
+                ]
+            },
+            "data_cells_count": 8,
+            "valid_data_cells": 8
+        }
+    },
+    "plt_base": 4128,
+    "plt": {
+        "4144": "printf"
+    },
+    "gotplt_base": 4160,
+    "gotplt_sz": 24,
+    "gotplt_entries": [
+        {
+            "address": 4160,
+            "mnemonic": "jmpq",
+            "op_str": "*0x2fb2(%rip)",
+            "size": 6,
+            "groups": [
+                145,
+                1
+            ],
+            "operands": [
+                {
+                    "type": 3,
+                    "mem": {
+                        "base": 41,
+                        "index": 0,
+                        "disp": 12210,
+                        "scale": 1
+                    }
+                }
+            ]
+        },
+        {
+            "address": 4166,
+            "mnemonic": "nop",
+            "op_str": "",
+            "size": 2,
+            "groups": [],
+            "operands": []
+        }
+    ],
+    "relocations": {
+        ".dyn": [
+            {
+                "name": null,
+                "st_value": null,
+                "offset": 15848,
+                "addend": 4400,
+                "type": 8
+            },
+            {
+                "name": null,
+                "st_value": null,
+                "offset": 15856,
+                "addend": 4336,
+                "type": 8
+            },
+            {
+                "name": null,
+                "st_value": null,
+                "offset": 16424,
+                "addend": 16424,
+                "type": 8
+            },
+            {
+                "name": "_ITM_deregisterTMCloneTable",
+                "st_value": 0,
+                "offset": 16344,
+                "addend": 0,
+                "type": 6
+            },
+            {
+                "name": "__libc_start_main",
+                "st_value": 0,
+                "offset": 16352,
+                "addend": 0,
+                "type": 6
+            },
+            {
+                "name": "__gmon_start__",
+                "st_value": 0,
+                "offset": 16360,
+                "addend": 0,
+                "type": 6
+            },
+            {
+                "name": "_ITM_registerTMCloneTable",
+                "st_value": 0,
+                "offset": 16368,
+                "addend": 0,
+                "type": 6
+            },
+            {
+                "name": "__cxa_finalize",
+                "st_value": 0,
+                "offset": 16376,
+                "addend": 0,
+                "type": 6
+            }
+        ],
+        ".plt": [
+            {
+                "name": "printf",
+                "st_value": 0,
+                "offset": 16408,
+                "addend": 0,
+                "type": 7
+            }
+        ]
+    },
+    "global_relocations": {
+        ".dyn": 8,
+        ".plt": 1
+    },
+    "globals": {
+        "16432": [
+            {
+                "name": "completed.8061_4030",
+                "sz": 1
+            }
+        ],
+        "16436": [
+            {
+                "name": "output_4034",
+                "sz": 4
+            }
+        ],
+        "8224": [
+            {
+                "name": "bar_2020",
+                "sz": 16
+            }
+        ],
+        "8192": [
+            {
+                "name": "_IO_stdin_used_2000",
+                "sz": 4
+            }
+        ]
+    },
+    "imports": null,
+    "dwarf_info": {},
+    "personality": null,
+    "loader_attached": true
+}
